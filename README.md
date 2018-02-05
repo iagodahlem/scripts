@@ -9,8 +9,7 @@ Utilities scripts to re-use in some setups.
 ```sh
 DIR=$(dirname $0)
 
-git clone git@github.com:iagodahlem/scripts.git && ./scripts/index.sh \
-  &> /dev/null
+git clone git@github.com:iagodahlem/scripts.git &> /dev/null
 source $DIR/scripts/index.sh
 ```
 
